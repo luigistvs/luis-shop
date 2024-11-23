@@ -1,0 +1,42 @@
+[
+    {
+        "titulo": "Zapatos marrones",
+        "descripcion": "De cuero",
+        "precio": "$30"
+    },
+    {
+        "titulo": "Franela de algodón",
+        "descripcion": "negra",
+        "precio": "$20"
+    },
+    {
+        "titulo": "Gorra bordada",
+        "descripcion": "Rockera",
+        "precio": "$15"
+    },
+    {
+        "titulo": "Falda estampada",
+        "descripcion": "de seda",
+        "precio": "$25"
+    },
+    {
+        "titulo": "Zapatos marrones",
+        "descripcion": "De cuero",
+        "precio": "$30"
+    },
+    {
+        "titulo": "Franela de algodón",
+        "descripcion": "negra",
+        "precio": "$20"
+    },
+    {
+        "titulo": "Gorra bordada",
+        "descripcion": "Rockera",
+        "precio": "$15"
+    },
+    {
+        "titulo": "Falda estampada",
+        "descripcion": "de seda",
+        "precio": "$25"
+    }
+]

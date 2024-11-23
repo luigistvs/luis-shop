@@ -1,0 +1,45 @@
+---
+import Articulo from "../components/Articulo.astro";
+import PaginaMaestra from "../layouts/PaginaMaestra.astro";
+
+import jeison from "../productos.json";
+---
+
+<PaginaMaestra>
+    <h1>Mis artículos</h1>
+
+    <div id="contenedor">
+        
+        {jeison.map(producto => {
+            return(
+                <Articulo 
+                    titulo={producto.titulo} 
+                    descripcion={producto.descripcion} 
+                    precio={producto.precio}
+                />
+            )
+        })}
+
+
+        
+        
+
+        
+    </div>
+</PaginaMaestra>
+
+
+<style>
+    h1 {
+        color: yellow;
+    }
+
+    #contenedor {
+        background: yellowgreen;
+        max-width: 1200px;
+        margin: auto;
+
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+</style>
